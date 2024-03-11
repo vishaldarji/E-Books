@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.navbar{
+    width: 90%;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;  
+    position: relative;
+   
+    /* background-color: black; */
+
+}
+
+i{
+    background-color: #fff;
+    width: 35px;
+    height: 25px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 50px;  
+    cursor: pointer; 
+}
+
+.logo{
+    color: black;
+    cursor: pointer;
+    width: 120px;
+    position: relative;   
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin:  0 20px;
+    position: relative; 
+     
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+    
+}
+
+
+header{
+    background-color: cornsilk;
+}
+
+.page1{
+    
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    
+}
+
+.page1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.find{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+  position: absolute;
+  width: 50%;
+  height: 35px;
+  bottom: -15px;
+  border: transparent;
+  box-shadow: black 10px 0px 15px 0px ;
+  border-radius: 5px;
+  border: 2px solid white;
+  outline: none;
+  font-size: 16px;
+  padding-left: 20px;
+  
+  /* padding: 4px; */
+
+  
+}
+
+button{
+    position: absolute;
+    height: 30px;
+    bottom: -8px;
+    right: 25%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.book{
+    width: 20%;
+    height: 300px;
+    margin-top: 80px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    /* flex:  0 0 auto;
+    margin-left: 10px; */
+}
+
+
+
+.book img{
+    min-width: 80%;
+    min-height: 85%;
+    max-width: 80%;
+    max-height: 85%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.book h3{
+    height: 15%;
+    font-size: 16px;
+}
+
+.books{
+    min-height: 500px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+   margin-top: -100px;
+   justify-content: space-between;
+   
+
+
+    /* width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px 0;
+    max-height: 500px; */
+    
+}
+
+.books div.main_book{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ebook{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.books2{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.main_book{
+    margin-top: -70px;
+    margin-bottom: 50px;
+    /* height: fit-content; */
+}
+
+
+
+.Categories{
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 80px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.cat{
+
+        width: 30%;
+        height: 250px;
+        border: 1px solid black;
+        margin: 10px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    
+}
+
+#cat1{
+    background-image: url(https://w0.peakpx.com/wallpaper/1021/740/HD-wallpaper-premium-young-couple-reading-book-on-sunset-background-small-couple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat2{
+    background-image: url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNlbGYlMjBoZWxwJTIwYm9va3N8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat3{
+    background-image: url(https://c1.wallpaperflare.com/preview/910/457/218/books-antique-book-old-book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat4{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/485/220/1024/street-city-evening-black-white-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat5{
+    background-image: url(https://media.istockphoto.com/id/1087508538/photo/open-book-with-hand-drawn-landscape.jpg?s=612x612&w=0&k=20&c=GUP9eVonIgnhSeB_vcxL2LI694ML7dl6jrJXMlYHiyE=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat6{
+    background-image: url(https://wallpapercave.com/wp/wp4430599.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cat h1{
+    color: aliceblue;
+}
+
+.books p{
+    width: 100%;
+    text-align: center;
+}
+
+.loading{
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #9c419c;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+    
+}
+
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#bar{
+    background-color: transparent;
+    font-size: 30px;
+    margin-top:-5px;
+    color: black;
+    position: absolute;
+    left: 88%;
+    display: none;
+}
+
+
+@media screen  and (max-width:930px){
+    .navbar ul li a{
+        font-size: 12px; 
+    }
+    .book{
+        width: 25%;
+        height: 200px;
+    }
+}
+@media screen  and (max-width:800px){
+    #bar{
+        display: block;
+        left: 70%;
+    }
+    .navbar ul li a{
+        display: none;
+    }
+}
+@media screen  and (max-width:600px){
+    .book{
+        width: 30%;
+        height: 200px;
+    }
+
+    .books{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .main_book{
+       display: grid;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
+    } */
+    .book h3{
+        font-size: small;
+    }
+}
